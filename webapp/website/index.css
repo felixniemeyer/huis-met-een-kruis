@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	background-color: #000;
+}
+
+#userDraw
+{
+	background-color:#222;
+	width:100px;
+	height:100px;
+	position:fixed;
+	left: 50%;
+	top: 50%;
+}
+
+.node
+{
+	fill: #aa7900;
+}
+
+.startpoint
+{
+	stroke-width:0.01;
+	stroke: #e8b822;
+}
+
+#stroke
+{
+	fill: none;
+	stroke-width: 0.01;
+	stroke: #fff;
+	stroke-linecap: round;
+}
